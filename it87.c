@@ -4554,6 +4554,9 @@ static const struct dmi_system_id it87_dmi_table[] __initconst = {
 		/* IT8689E */
 	IT87_DMI_MATCH_GBT("B650M GAMING X AX", it87_dmi_cb,
 			   &it87_acpi_ignore),
+		/* IT8689E*/
+	IT87_DMI_MATCH_GBT("B650 AORUS PRO AX", it87_dmi_cb,
+				&it87_acpi_ignore),
 		/* IT8689E */
 	IT87_DMI_MATCH_GBT("X670 AORUS ELITE AX", it87_dmi_cb,
 			   &it87_acpi_ignore),
